@@ -1,9 +1,9 @@
 class Archlens < Formula
   desc "Generate architectural views from lightweight specifications"
-  homepage "https://github.com/archlens/ArchLensGo"
-  url "https://github.com/archlens/ArchLensGo/archive/refs/tags/v0.3.1.tar.gz"
+  homepage "https://github.com/archlens/ArchLens"
+  url "https://github.com/archlens/ArchLensGo/archive/refs/tags/v0.5.4.tar.gz"
   
-  sha256 "b4cfd680cae824af813037ffc575521edcbebf3588615172f0ea7e8d8ee7b86b"
+  sha256 "33230c59dc9e8cfedd13a13006d939a44bcf05264a233d6f87077344fc7bd6b4"
   license "MIT"
 
   depends_on "go" => :build
