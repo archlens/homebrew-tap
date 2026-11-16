@@ -9,9 +9,7 @@ class Archlens < Formula
   depends_on "go" => :build
 
 def install
-  cd "src" do
-    system "go", "build", *std_go_args(ldflags: "-s -w")
-  end
+  system "go", "build", *std_go_args(ldflags: "-s -w")
 end
 
   test do
